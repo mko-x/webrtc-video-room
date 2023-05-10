@@ -1,7 +1,7 @@
 FROM node:alpine
 
 # ensure latest npm
-RUN npm install -g npm@7.8.0
+RUN npm install -g npm@latest
 
 RUN mkdir -p /var/lib/wvr
 
